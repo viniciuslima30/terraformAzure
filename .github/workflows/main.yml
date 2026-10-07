@@ -30,7 +30,7 @@ jobs:
       - name: Planejar Terraform
         run: terraform plan
 
-      name: Terraform Azure
+      - name: Terraform Azure
 
 on:
   workflow_dispatch:
